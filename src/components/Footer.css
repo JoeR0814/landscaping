@@ -1,0 +1,151 @@
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 40px 20px;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.company-info h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.company-info p {
+  margin: 5px 0;
+}
+
+.social-links h4 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.social-links ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.social-links li {
+  margin-bottom: 5px;
+}
+
+.social-links a {
+  color: #ddd;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  color: white;
+}
+
+.legal {
+  margin-top: 20px;
+}
+
+.terms-link {
+  color: #ddd;
+  text-decoration: none;
+}
+
+.terms-link:hover {
+  color: white;
+}
+
+.copyright {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #ddd;
+}
+
+/* Mobile devices */
+@media only screen and (max-width: 599px) {
+  .footer-content {
+    flex-direction: column;
+  }
+
+  .company-info,
+  .social-links,
+  .legal {
+    margin-bottom: 20px;
+  }
+
+  .social-links ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .social-links li {
+    margin-right: 10px;
+  }
+}
+
+/* Tablets */
+@media only screen and (min-width: 600px) and (max-width: 899px) {
+  .footer-content {
+    flex-wrap: wrap;
+  }
+
+  .company-info,
+  .social-links {
+    flex-basis: 48%;
+  }
+
+  .legal {
+    flex-basis: 100%;
+    margin-top: 20px;
+  }
+}
+
+/* Laptops */
+@media only screen and (min-width: 900px) and (max-width: 1199px) {
+  .footer {
+    padding: 60px 30px;
+  }
+}
+
+/* Small desktop screens */
+@media only screen and (min-width: 1200px) and (max-width: 1599px) {
+  .footer {
+    padding: 80px 40px;
+  }
+
+  .company-info h3 {
+    font-size: 1.7rem;
+  }
+
+  .social-links h4 {
+    font-size: 1.4rem;
+  }
+}
+
+/* Large desktop screens */
+@media only screen and (min-width: 1600px) {
+  .footer {
+    padding: 100px 60px;
+  }
+
+  .company-info h3 {
+    font-size: 2rem;
+  }
+
+  .company-info p,
+  .social-links a,
+  .terms-link {
+    font-size: 1.1rem;
+  }
+
+  .social-links h4 {
+    font-size: 1.6rem;
+  }
+
+  .copyright {
+    font-size: 1rem;
+  }
+}

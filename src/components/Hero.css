@@ -1,0 +1,109 @@
+.hero {
+  background-image: url("https://media.giphy.com/media/TeBDWIrIpJt0bSueed/giphy.gif?cid=790b7611boe67luwz6me7a4cm9c5t0fjfxeld8gtz26y66ne&ep=v1_gifs_search&rid=giphy.gif&ct=g");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+  width: 100%;
+  height: 85vh;
+}
+
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 15%;
+}
+
+.hero h1 {
+  color: white;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Mobile devices */
+@media only screen and (max-width: 599px) {
+  .hero {
+    padding: 50px 10px;
+  }
+
+  .hero h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .cta-button {
+    font-size: 0.9rem;
+  }
+}
+
+/* Tablets */
+@media only screen and (min-width: 600px) and (max-width: 899px) {
+  .hero {
+    padding: 80px 20px;
+  }
+
+  .hero h1 {
+    font-size: 2.2rem;
+  }
+}
+
+/* Laptops */
+@media only screen and (min-width: 900px) and (max-width: 1199px) {
+  .hero {
+    padding: 120px 20px;
+  }
+}
+
+/* Small desktop screens */
+@media only screen and (min-width: 1200px) and (max-width: 1599px) {
+  .hero {
+    padding: 150px 20px;
+  }
+
+  .hero h1 {
+    font-size: 3rem;
+  }
+
+  .hero p {
+    font-size: 1.4rem;
+  }
+}
+
+/* Large desktop screens */
+@media only screen and (min-width: 1600px) {
+  .hero {
+    padding: 200px 20px;
+  }
+
+  .hero h1 {
+    font-size: 3.5rem;
+  }
+
+  .hero p {
+    font-size: 1.6rem;
+  }
+
+  .cta-button {
+    font-size: 1.2rem;
+    padding: 15px 30px;
+  }
+}
